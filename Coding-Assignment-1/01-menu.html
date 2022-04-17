@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- 3. Style it -->
+        <!-- On the ul set list-style-type: none (to remove bullets) -->
+        <!-- Remove padding, margin of ul -->
+        <!-- You can get list items side-by-side by making them inline-block -->
+        <link rel="stylesheet" href="menu.css">
+    </head>
+    <body>
+        <!-- 1. Create a nav -->
+        <!-- 2. Place top-level links in a ul with lis (Link 1, Link 2, Link 3) -->
+        <nav>
+            <div class="banner">
+                <div class="container">
+                    <h1 class="page-title">Pharmacy</h1>
+                </div>
+            </div>
+            <ul class="main-menu list-unstyled">
+                <li>
+                    <a href="/link1">Home</a>
+                </li>
+
+                <!-- position: relative -->
+                <li class="item-with-sub-menu">
+                    <a href="/link2">Our Medicines</a>
+                    <ul class="sub-menu list-unstyled">
+                        <li>
+                            <a href="/link2/item1">Fever</a>
+                        </li>
+                        <li>
+                            <a href="/link2/item1">Muscle Pains</a>
+                        </li>
+                        <li>
+                            <a href="/link2/item1">Cold and Cough</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="item-with-sub-menu">
+                    <a href="/link3">Health Care</a>
+                    <ul class="sub-menu list-unstyled">
+                        <li>
+                            <a href="/link3/item2">Baby Care</a>
+                        </li>
+                        <li>
+                            <a href="/link3/item2">Skin Care</a>
+                        </li>
+                        <li>
+                            <a href="/link3/item2">Home Care</a>
+                        </li>
+                        <li>
+                            <a href="/link3/item2">Personal Care</a>
+                        </li>
+                        <li>
+                            <a href="/link3/item2">Pet Care</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="form.html">Lab Test</a>
+                </li>
+
+            </ul>
+            <div class="animation-class" id="animation-images">
+            </div>
+            <main class="container">
+                <section id="covid-care">
+                    <h2>Covid Care</h2>
+    
+                    <div class="covid-gallery">
+                        <b>Covid Test Kit</b>
+                        </br>
+                        <div class="covid-item">
+                            <img src="Images/Products/c1.jpg">
+                        </div>
+                        <p style="color:blue">Rs. 40/-</p>
+                        <p style="color:blue">Offer: Rs. 30/-</p>
+                        <div><a href="#" class="button">Add to cart</a></div>
+                    </div>
+
+                    <div class="covid-gallery">
+                        <b>Covid Essentials</b>
+                        </br>
+                        <div class="covid-item">
+                            <img src="Images/Products/c2.jpg">
+                        </div>
+                        <p style="color:blue">Rs. 240/-</p>
+                        <p style="color:blue">Offer: Rs. 170/-</p>
+                        <div><a href="#" class="button">Add to cart</a></div>
+                    </div>
+
+                    <div class="covid-gallery">
+                        <b>Mask</b>
+                        </br>
+                        <div class="covid-item">
+                            <img src="Images/Products/c4.jpg">
+                        </div>
+                        <p style="color:blue">Rs. 45/-</p>
+                        <p style="color:blue">Offer: Rs. 30/-</p>
+                        <div><a href="#" class="button">Add to cart</a></div>
+                    </div>
+
+                    <div class="covid-gallery">
+                        <b>Santizer Bottle</b>
+                        </br>
+                        <div class="covid-item">
+                            <img src="Images/Products/c3.jpg">
+                        </div>
+                        <p style="color:blue">Rs. 99/-</p>
+                        <p style="color:blue">Offer: Rs. 87/-</p>
+                        <div><a href="#" class="button">Add to cart</a></div>
+                    </div>
+                </section>
+
+                <section id="covid-care">
+                    <h2>Diabetes Care</h2>
+    
+                    <div class="covid-gallery">
+                        <b>Item1</b>
+                        </br>
+                        <div class="covid-item">
+                            <img src="Images/Products/d1.jpg">
+                        </div>
+                        <p style="color:blue">Rs. 45/-</p>
+                        <p style="color:blue">Offer: Rs. 30/-</p>
+                        <div><a href="#" class="button">Add to cart</a></div>
+                    </div>
+
+                    <div class="covid-gallery">
+                        <b>Item2</b>
+                        </br>
+                        <div class="covid-item">
+                            <img src="Images/Products/d2.jpg">
+                        </div>
+                        <p style="color:blue">Rs. 45/-</p>
+                        <p style="color:blue">Offer: Rs. 30/-</p>
+                        <div><a href="#" class="button">Add to cart</a></div>
+                    </div>
+
+                    <div class="covid-gallery">
+                        <b>Item3</b>
+                        </br>
+                        <div class="covid-item">
+                            <img src="Images/Products/d3.jpg">
+                        </div>
+                        <p style="color:blue">Rs. 45/-</p>
+                        <p style="color:blue">Offer: Rs. 30/-</p>
+                        <div><a href="#" class="button">Add to cart</a></div>
+                    </div>
+
+                    <div class="covid-gallery">
+                        <b>Item4</b>
+                        </br>
+                        <div class="covid-item">
+                            <img src="Images/Products/d4.png">
+                        </div>
+                        <p style="color:blue">Rs. 35/-</p>
+                        <p style="color:blue">Offer: Rs. 30/-</p>
+                        <div><a href="#" class="button">Add to cart</a></div>
+                    </div>
+                </section>
+
+            </main>
+            <div class="banner1">
+                <div class="container">
+                    <h1 class="page-title">@copyright. Only for demonstration purposes</h1>
+                </div>
+            </div>
+        </nav>
+    </body>
+</html>
